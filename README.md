@@ -8,6 +8,6 @@ Accuracy can be improved when complex model is used.
 ## Detail
 - The famous titanic dataset 
 - Feature: information about passengers
-- Label: survive or not
+- Label: survived or not
 - Algorithm: Support vector machine
 - Cross validation accuracy: 78.7%
