@@ -1,4 +1,4 @@
-## Titanic data analysis
+# Data analysis
 
 This project serves as a demonstration of basic numpy, panda, and sklearn skill.  
   
