@@ -1,6 +1,6 @@
 # Data analysis
 
-This project serves as a demonstration of basic numpy, pandas and sklearn skills.  
+This project serves as a demonstration of numpy, pandas and sklearn skills.  
   
 Accuracy can be improved when complex model is used.  
 
