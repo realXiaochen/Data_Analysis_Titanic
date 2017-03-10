@@ -1,1 +1,15 @@
 # Data_Analysis_Titanic
+- This project serves as a demonstration of basic numpy, panda, and sklearn skill.
+- Accuracy can be improved given more time.
+
+## Source
+The titanic dataset 
+- Feature: information about passengers
+- Label: survive or not
+
+## Algorithm used
+Support vector machine
+
+
+## Cross validation accuracy
+- 78.7%
