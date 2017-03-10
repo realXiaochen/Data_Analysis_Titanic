@@ -1,4 +1,4 @@
-# Data analysis
+# Titanic
 
 A demonstration of numpy, pandas and sklearn skills.  
   
