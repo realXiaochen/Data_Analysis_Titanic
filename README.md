@@ -1,9 +1,10 @@
 # Data_Analysis_Titanic
 - This project serves as a demonstration of basic numpy, panda, and sklearn skill.
-- Accuracy can be improved given more time.
+- Accuracy can be improved if more complex model is used.
+- 
 
-## Source
-The titanic dataset 
+## Data
+- The famous titanic dataset 
 - Feature: information about passengers
 - Label: survive or not
 
