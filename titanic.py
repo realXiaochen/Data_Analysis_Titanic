@@ -84,7 +84,7 @@ test  = test.drop(to_drop, axis = 1)
 plt.matshow(train.corr())
 
 
-# Analysis
+
 n_train = train.shape[0]
 n_test = test.shape[0]
 s = 0
@@ -122,8 +122,6 @@ SEED = 0
 N_FOLD = 5
 kf =  KFold(ntrain, n_folds= N_FOLD, random_state=SEED)
 
-
-
 result = []
 
 for i, (train_index, test_index) in enumerate(kf):
@@ -131,13 +129,10 @@ for i, (train_index, test_index) in enumerate(kf):
     y_tr = y_train[train_index]
     svc.train(x_tr, y_tr)
 
-
-
     x_predict = svc.predict(x_train[test_index])
     x_label = y_train[test_index]
 
     result.append( np.sum(x_predict == x_label)/float(len(x_predict)))
-
 
 # Average accuracy
 print float(sum(result))/len(result)
