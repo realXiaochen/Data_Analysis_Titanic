@@ -1,9 +1,6 @@
 # Titanic
 
 A demonstration of numpy, pandas and sklearn skills.  
-  
-Accuracy can be improved when complex model is used.  
-
 
 ## Detail
 - The famous titanic dataset 
